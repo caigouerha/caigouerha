@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.zhu {
+  width: 100%;
+//   height: 1000px;
+//   background: #000;
+  padding: 20px 0;
+  .nei {
+    width: 93%;
+    height: 90%;
+    margin: 0 auto;
+    // background: #FFF;
+    .top {
+      width: 100%;
+      height: 50px;
+      font-size: 50px;
+
+      .top-l {
+        width: 30%;
+        border: 1px solid #000;
+        border-radius: 2px;
+        background: #fff;
+      }
+      .aa {
+        .HP-T-R-navlist {
+          text-decoration: none;
+          color: #444;
+          font-size: 60px;
+          display: block;
+        }
+      }
+    }
+    .main {
+      padding: 20px;
+      background: #fff;
+      .wz-box {
+        // background: red;
+        .wz-zheng {
+          width: 100%;
+          //   height: 300px;
+          .wz-shang {
+            width: 100%;
+            height: 140px;
+            // background: magenta;
+            .wz-wz {
+              width: 99%;
+              height: 30px;
+            }
+            .wz-zw {
+              margin-top: 20px;
+              width: 99%;
+              height: 70px;
+            }
+          }
+        }
+        // .wz-zheng{
+        //     width: 100%;
+        //     height: 500px;
+        //     // background: red;
+        //     .wz-shang{
+        //         width: 100%;
+        //         height: 20px;
+        //         background: slateblue;
+        //         .wz-wz{
+        //             width: 80%;
+        //             height: 20px;
+        //         }
+        //     }
+        // }
+      }
+    }
+  }
+}
+.xia-xx {
+  width: 100%;
+  // background: darkblue;
+  margin-top: 40px;
+  .xia-xx-zi {
+    font-size: 40px;
+  }
+  .xia-fb {
+    width: 100%;
+    height: 170px;
+    font-size: 40px;
+    input {
+      width: 99%;
+      height: 30px;
+    }
+    select {
+      width: 99%;
+      height: 30px;
+    }
+  }
+}
+.tu {
+  input {
+    width: 99%;
+    height: 30px;
+  }
+}
+.btn {
+  width: 100px;
+  height: 50px;
+  line-height: 70px;
+  border: 0;
+  background: #72bd1f;
+  text-align: center;
+  font-size: 40px;
+  color: #ecf9fa;
+  margin-top: 20px;
+}

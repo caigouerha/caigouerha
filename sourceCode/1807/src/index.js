@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './index.css';
+import './index.css';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 //引入的作业
-import Home from '../src/home';
+// import Home from '../src/home';
+import Home from '../src/about';
 
 ReactDOM.render(<Home />, document.getElementById('root'));
 
