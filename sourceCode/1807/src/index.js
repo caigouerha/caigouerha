@@ -5,9 +5,9 @@ import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 
 //引入的作业
-import Home from '../src/home';
+import Html from '../src/ly_wock/html';
 
-ReactDOM.render(<Home />, document.getElementById('root'));
+ReactDOM.render(<Html />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
