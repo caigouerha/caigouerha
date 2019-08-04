@@ -1,5 +1,5 @@
 .zc_box{
-    margin: 40px 0 0 0;
+    margin: 20px 0 0 0;
 }
 .zc_box input{
     outline: none;
@@ -19,7 +19,7 @@
     box-sizing: border-box;
     border: 2px solid #999999;
     height: 50px;
-    line-height: 50px;
+    line-height: 100px;
     text-align: center;
     outline: none;
     -webkit-appearance: none;

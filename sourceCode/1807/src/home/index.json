@@ -1,0 +1,24 @@
+{
+    "data":[
+        {
+            "id":1,
+            "name":"LOFTER首页",
+            "linkUrl":"/home"
+        },
+        {
+            "id":2,
+            "name":"发布文章",
+            "linkUrl":"/home"
+        },
+        {
+            "id":3,
+            "name":"喜欢的文章",
+            "linkUrl":"/xh"
+        }
+    ],
+    "data1":[
+        {
+            "name":"LOFTER元氣客服醬"
+        }
+    ]
+}

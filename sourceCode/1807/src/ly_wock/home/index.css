@@ -15,9 +15,12 @@
     display: flex;
     justify-content:space-around;
 }
+.ul li{
+    display: flex;
+}
 .ul li a{
-    color: black;
-    font-size: 20px;
+    color: rgb(212, 194, 194);
+    font-size: 40px;
 }
 .ul li a:hover{
     cursor: pointer;

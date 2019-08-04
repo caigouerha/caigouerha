@@ -14,7 +14,7 @@ import { BrowserRouter } from 'react-router-dom'
 export default class Html extends Component {
     render() {
         return (
-        <div>
+        <div style={{background:"white"}}>
 
             {/* 头部部分 */}
             <Nav />

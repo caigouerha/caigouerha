@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 
 //引入的作业
-import Html from '../src/ly_wock/html';
+import Html from './html/index';
 
 ReactDOM.render(<Html />, document.getElementById('root'));
 

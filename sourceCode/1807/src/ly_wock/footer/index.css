@@ -1,6 +1,6 @@
 .footer_box{
     text-align: center;
-    margin-top:365px;
+    margin-top:310px;
 }
 .footer_box ul {
     height: auto;
@@ -9,6 +9,9 @@
     display: -webkit-box;
     width:200px;
     margin: 46px auto 0;
+}
+.footer_box span {
+    font-size: 40px;
 }
 .footer_box ul li {
     text-align: center;

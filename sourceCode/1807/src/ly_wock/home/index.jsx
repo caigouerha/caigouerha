@@ -16,7 +16,7 @@ export default class Home extends Component {
                        <NavLink to='/zc'>注册</NavLink>
                    </li>
                    <li>
-                       <NavLink to='dl'>登录</NavLink>
+                       <NavLink to='/dl'>登录</NavLink>
                    </li>
                </ul>
             </div>

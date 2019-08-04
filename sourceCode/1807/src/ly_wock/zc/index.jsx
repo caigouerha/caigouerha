@@ -35,8 +35,8 @@ export default class Zc extends Component {
             <div className='zc_box'>
                <input type="text" onChange={this.onHandleChange} value={this.state.userName} name='userName' placeholder='手机号(中国大陆)'/>
                <input type="text" onChange={this.onHandleChange} value={this.state.email} name='email' placeholder='验证码'/>
-               <input type="text" onChange={this.onHandleChange} value={this.state.passWord} name='passWord' placeholder='设置密码(6~16位)'/>
-               <input type="text" onChange={this.onHandleChange} value={this.state.passWordEnd} name='passWordEnd' placeholder='确认密码'/>
+               <input type="password" onChange={this.onHandleChange} value={this.state.passWord} name='passWord' placeholder='设置密码(6~16位)'/>
+               <input type="password" onChange={this.onHandleChange} value={this.state.passWordEnd} name='passWordEnd' placeholder='确认密码'/>
                <p onClick={()=>this.zclink('zc')}>注册</p>
             </div>
         )
