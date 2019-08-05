@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter,NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 //引入数据
 import as from './index.json'
@@ -8,7 +8,6 @@ import as from './index.json'
 import './index.scss'
 
 //引入组件
-// import  from ''
 // import  from ''
 
 export default class Home extends Component {
@@ -28,7 +27,6 @@ export default class Home extends Component {
         // console.log(as.data1)
         return (
             <div>
-                <BrowserRouter>
                 <div className='zheng'>
                     {/* logo */}
                     <div className='tou'>
@@ -73,7 +71,6 @@ export default class Home extends Component {
                         <p>兰州是一个直形城市,所有建筑都是一字往外排开,因此机场到市中心路...</p>
                     </div>
                 </div>
-                </BrowserRouter>
             </div>
         )
     }

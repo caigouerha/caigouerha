@@ -9,12 +9,12 @@ import Footer from '../footer'
 
 //结构路由
 import { BrowserRouter } from 'react-router-dom'
-
+import './index.scss'
 
 export default class Html extends Component {
     render() {
         return (
-        <div style={{background:"white"}}>
+        <div style={{background:"white"}} className='tt'>
 
             {/* 头部部分 */}
             <Nav />

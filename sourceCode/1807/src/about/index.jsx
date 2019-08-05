@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter, Route, NavLink ,Redirect} from 'react-router-dom'
+import {  Route, NavLink ,Redirect} from 'react-router-dom'
 import './index.scss'
 import Tp from './fb/tp'
 import Wz from './fb/wz'
@@ -32,7 +32,6 @@ export default class About extends Component {
     }
     render() {
         return (
-            <BrowserRouter>
                 <div className='zhu'>
                     <div className='nei'>
                         {/* <select id="sex" >
@@ -77,7 +76,6 @@ export default class About extends Component {
                         </main>
                     </div>
                 </div>
-            </BrowserRouter>
         )
     }
 }
