@@ -63,6 +63,7 @@
     .zi-san {
       font-weight: 600;
     }
+<<<<<<< HEAD
   }
 }
 .nav-daohang {
@@ -85,6 +86,33 @@
       height: 100%;
       background: rgb(214, 213, 213);
       text-align: center;
+=======
+    .zi-zheng{
+        width: 96%;
+        // height: 500px;
+        // background: red;
+        margin: 0 auto;
+        font-size: 36px;
+        .zi-yi{
+            width: 100%;
+            font-size: 36px;
+            display: inline-block;  
+            .zi-yi-tu{
+                display: inline-block;
+                width: 88%;
+                height: 203px;
+                background: url(../img/1.jpg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+        }
+        // .zi-er{
+        //     font-size:36px;
+        // }
+        .zi-san{
+            font-weight: 600;
+        }
+>>>>>>> c0e20b7b9d95a05ea4c608c0e67a76c230b2be9d
     }
   }
   .nav-dh-yin {

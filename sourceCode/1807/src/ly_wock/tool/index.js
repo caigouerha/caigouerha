@@ -2,19 +2,19 @@ export default (param = {}, pandName) => {
     const { userName, passWord, email, passWordEnd } = param;
     switch (pandName) {
         case 'zc':
-            if (userName === '' || userName !== '13463115348') {
+            if (userName === '' || userName.length <11) {
                 return {
                     status: false,
                     msg: '您的手机号不能少于11位'
                 }
             }
-            if (email === '' || email !== '1016') {
+            if (email === '' || email.length <4) {
                 return {
                     status: false,
                     msg: '验证码不能少于4位'
                 }
             }
-            if (passWord === '' || passWord !== '5211314lxs') {
+            if (passWord === '' || passWord.length <6) {
                 return {
                     status: false,
                     msg: '您的密码不能为小于6位'
@@ -27,24 +27,24 @@ export default (param = {}, pandName) => {
                     msg: '您的两次密码不相同'
                 }
             }
-            return true;
+            // return true;
             
     }
     switch (pandName) {
         case 'dl':
 
-            if (userName !== '13463115348' || userName === '') {
+            if (userName === '' || userName.length <11) {
                 return {
                     status: false,
                     msg: '您的手机号不能少于11位'
                 }
             }
-            if (passWord !== '5211314lxs' || passWord.length === '') {
+            if (passWord === '' || passWord.length <6) {
                 return {
                     status: false,
                     msg: '您的密码名不能为小于6位'
                 }
             }
-            return true;
-       }
+            // return true;
+        }
     }

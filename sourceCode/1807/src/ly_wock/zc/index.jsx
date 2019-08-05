@@ -16,12 +16,12 @@ export default class Zc extends Component {
             passWordEnd:''
         }
     }
-    zclink(pandName ){
+    zclink( pandName ){
         let data = pd(this.state,pandName)
-        console.log(data)
         if(data.status){
             alert(data.msg)
         }else{
+            alert('注册成功！')
             window.location.replace('/dl')
         }
     }

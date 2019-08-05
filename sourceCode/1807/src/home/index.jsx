@@ -7,9 +7,12 @@ import React, { Component } from 'react'
 //引入样式
 import './index.scss'
 
+<<<<<<< HEAD
 //引入组件
 import Daoh from './daoh'
 
+=======
+>>>>>>> c0e20b7b9d95a05ea4c608c0e67a76c230b2be9d
 export default class Home extends Component {
     constructor(props) {
         super(props)
@@ -19,9 +22,13 @@ export default class Home extends Component {
     }
 
     render() {
-        // console.log(as.data1)
         return (
+<<<<<<< HEAD
             <div>
+=======
+        <div>
+            <BrowserRouter>
+>>>>>>> c0e20b7b9d95a05ea4c608c0e67a76c230b2be9d
                 <div className='zheng'>
                     {/* logo */}
                     <div className='tou'>
@@ -51,7 +58,12 @@ export default class Home extends Component {
                         <p>兰州是一个直形城市,所有建筑都是一字往外排开,因此机场到市中心路...</p>
                     </div>
                 </div>
+<<<<<<< HEAD
             </div>
+=======
+            </BrowserRouter>
+        </div>
+>>>>>>> c0e20b7b9d95a05ea4c608c0e67a76c230b2be9d
         )
     }
 }
