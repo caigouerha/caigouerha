@@ -27,7 +27,7 @@ export default (param = {}, pandName) => {
                     msg: '您的两次密码不相同'
                 }
             }
-            return true;
+            // return true;
             
     }
     switch (pandName) {
@@ -45,6 +45,6 @@ export default (param = {}, pandName) => {
                     msg: '您的密码名不能为小于6位'
                 }
             }
-            return true;
-       }
+            // return true;
+        }
     }

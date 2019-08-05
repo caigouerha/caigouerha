@@ -1,8 +1,15 @@
 import React, { Component } from 'react'
+
+//引入路由
 import {BrowserRouter as Router,Route,Redirect} from 'react-router-dom'
+
+//引入组件
 import Home from '../home/index.jsx'
-import './index.scss'
 import Zc from "../ly_wock/html"
+
+//引入样式
+import './index.scss'
+
 export default class Html extends Component {
     render() {
         return (
@@ -20,7 +27,6 @@ export default class Html extends Component {
                 <Route path='/' exact  component={()=>{
                     return <Zc/>
                 }}/>
-                {/* <Redirect to="/zc" /> */}
             </Router>
             </div>
             

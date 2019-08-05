@@ -7,12 +7,6 @@ import as from './index.json'
 //引入样式
 import './index.scss'
 
-//引入组件
-// import  from ''
-// import  from ''
-
-import Article from '../Article/index'
-
 export default class Home extends Component {
     constructor(props) {
         super(props)
@@ -27,14 +21,9 @@ export default class Home extends Component {
     }
     
     render() {
-        // console.log(as.data1)
         return (
-            <div>
-<<<<<<< HEAD
-                {/* 酷酷的刘先生，我爱你 */}
-                <Article/>
-=======
-                <BrowserRouter>
+        <div>
+            <BrowserRouter>
                 <div className='zheng'>
                     {/* logo */}
                     <div className='tou'>
@@ -66,7 +55,7 @@ export default class Home extends Component {
                     </div>
                     <div className='zi-zheng'>
                         <p className='zi-yi'>
-                            <p className='zi-yi-tu'></p>
+                            <span className='zi-yi-tu'></span>
                             前几天小嘤收到了一份惊喜的礼物，是一个兰州小伙伴特地寄过来的手抓羊肉，超级好吃的！！
                             <br/>
                         </p>
@@ -79,9 +68,8 @@ export default class Home extends Component {
                         <p>兰州是一个直形城市,所有建筑都是一字往外排开,因此机场到市中心路...</p>
                     </div>
                 </div>
-                </BrowserRouter>
->>>>>>> 4031da5108cd3231b647a27bf4abd11c0183d431
-            </div>
+            </BrowserRouter>
+        </div>
         )
     }
 }
