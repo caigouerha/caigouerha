@@ -1,0 +1,53 @@
+.footer_box{
+    text-align: center;
+    margin-top:310px;
+}
+.footer_box ul {
+    height: auto;
+    padding-bottom: 40px;
+    overflow: hidden;
+    display: -webkit-box;
+    width:200px;
+    margin: 46px auto 0;
+}
+.footer_box span {
+    font-size: 40px;
+}
+.footer_box ul li {
+    text-align: center;
+    -webkit-box-flex: 1;
+}
+.footer_box ul li:nth-child(1) a{
+    display: inline-block;
+    height: 48px;
+    width: 56px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #336162;
+    background-position: center -96px;
+    background-repeat: no-repeat;
+    background-image: url(http://www.lofter.com/mobile/src/images/wap2/login/loginotherway.png);
+}
+.footer_box ul li:nth-child(2) a{
+    display: inline-block;
+    height: 48px;
+    width: 56px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #336162;
+    background-position: center -48px;
+    background-repeat: no-repeat;
+    background-image: url(http://www.lofter.com/mobile/src/images/wap2/login/loginotherway.png);
+}
+.footer_box ul li:nth-child(3) a{
+    display: inline-block;
+    height: 48px;
+    width: 56px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #336162;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-image: url(http://www.lofter.com/mobile/src/images/wap2/login/loginotherway.png);
+}
+

@@ -1,0 +1,32 @@
+.dl_box{
+    margin: 40px 0 0 0;
+}
+.dl_box input{
+    outline: none;
+    padding: 10px 3px;
+    border: none;
+    height: 54px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #333333;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #b7b7b7;
+}
+.dl_box p {
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 2px solid #999999;
+    height: 50px;
+    line-height: 100px;
+    text-align: center;
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 88px;
+    color: #999999;
+    font-size: 34px;
+    display: block;
+    width: 100%;
+    background-color: #FFFFFF;
+}
