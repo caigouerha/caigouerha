@@ -4,6 +4,7 @@ import Home from '../home/index.jsx'
 import './index.scss'
 import Zc from "../ly_wock/html"
 import About from '../about/index.jsx';
+import Article from '../Article';
 export default class Html extends Component {
     render() {
         return (
@@ -21,12 +22,12 @@ export default class Html extends Component {
                     <Route path="/home" component={() => {
                         return <Home />
                     }} />
-                    <Route path="/wz" component={() => {
+                    <Route path="/fb" component={() => {
                         return <About />
                     }}/>
-                    {/* <Route path="/xh" component={() => {
-                        return <About />
-                    }}/> */}
+                    <Route path="/xh" component={() => {
+                        return <Article />
+                    }}/>
                 </Router>
             </div>
 
