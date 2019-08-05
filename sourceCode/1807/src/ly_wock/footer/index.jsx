@@ -10,13 +10,13 @@ export default class Footer extends Component {
                <span>社交账号登录</span>
                <ul>
                    <li>
-                       <a href="javascript:;"></a>
+                       {/* <a href="javascript:;"></a> */}
                    </li>
                    <li>
-                       <a href="javascript:;"></a>
+                       {/* <a href="javascript:;"></a> */}
                    </li>
                    <li>
-                       <a href="javascript:;"></a>
+                       {/* <a href="javascript:;"></a> */}
                    </li>
                </ul>
             </div>

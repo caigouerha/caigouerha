@@ -1,3 +1,4 @@
+/* eslint-disable default-case */
 export default (param = {}, pandName) => {
     const { userName, passWord, email, passWordEnd } = param;
     switch (pandName) {
@@ -27,7 +28,6 @@ export default (param = {}, pandName) => {
                     msg: '您的两次密码不相同'
                 }
             }
-            // return true;
             
     }
     switch (pandName) {

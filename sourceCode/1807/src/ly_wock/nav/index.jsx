@@ -10,7 +10,7 @@ export default class Nav extends Component {
             <div>
 
                 {/* 头部图片 */}
-                <h1 className='back'></h1>
+                <p className='back'></p>
 
             </div>
         )

@@ -17,7 +17,7 @@
     text-align: center;
     -webkit-box-flex: 1;
 }
-.footer_box ul li:nth-child(1) a{
+.footer_box ul li:nth-child(1) {
     display: inline-block;
     height: 48px;
     width: 56px;
@@ -28,7 +28,7 @@
     background-repeat: no-repeat;
     background-image: url(http://www.lofter.com/mobile/src/images/wap2/login/loginotherway.png);
 }
-.footer_box ul li:nth-child(2) a{
+.footer_box ul li:nth-child(2) {
     display: inline-block;
     height: 48px;
     width: 56px;
@@ -39,7 +39,7 @@
     background-repeat: no-repeat;
     background-image: url(http://www.lofter.com/mobile/src/images/wap2/login/loginotherway.png);
 }
-.footer_box ul li:nth-child(3) a{
+.footer_box ul li:nth-child(3) {
     display: inline-block;
     height: 48px;
     width: 56px;

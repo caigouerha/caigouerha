@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 import  '../conent/index.css'
 
 //引入路由
-import { Route,Redirect } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 
 //引入组件
 import Zc from '../zc'
